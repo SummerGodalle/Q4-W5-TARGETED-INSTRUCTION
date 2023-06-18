@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.rt {
+  display: inline-block;
+  color: red;
+  font-family: Times New Roman;
+  text-align: justify;
+}
+
+.rt .rd {
+    visibility: hidden;
+    width: 230px;
+    color: red;
+    background-color: #FFADAD;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.rd::first-letter {
+    font-size: 30px;
+    color: darkred;
+    font-weight: bold;
+    float: left;
+    line-height: 0.85;          
+}      
+         
+.rt:hover .rd {
+  visibility: visible;
+}
+
+.ot {
+  display: inline-block;
+  color: orange;
+  font-family: Lucida Console;
+  text-align: justify;
+}
+
+.ot .od {
+    visibility: hidden;
+    width: 230px;
+    color: orange;
+    background-color: #FFD6A5;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.od::first-letter {
+    font-size: 30px;
+    color:orangered;
+    font-weight: bold;
+    float: left;
+    line-height: 0.85;          
+}      
+         
+.ot:hover .od {
+  visibility: visible;
+}
+
+.yt {
+  display: inline-block;
+  color: yellow;
+  font-family: Monaco;
+  text-align: justify;
+}
+
+.yt .yd {
+    visibility: hidden;
+    width: 230px;
+    color: darkgoldenrod;
+    background-color: #FDFFB6;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.yd::first-letter {
+    font-size: 30px;
+    color:darkgoldenrod;
+    font-weight: bold;
+    float: left;
+    line-height: 0.85;          
+}      
+         
+.yt:hover .yd {
+  visibility: visible;
+}
+
+}
+.gt {
+  display: inline-block;
+  color: green;
+  font-family: Brush Script MT;
+  text-align: justify;
+}
+
+.gt .gd {
+    visibility: hidden;
+    width: 230px;
+    color: green;
+    background-color: #CAFFBF;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.gd::first-letter {
+    font-size: 30px;
+    color:darkgreen;
+    font-weight: bold;
+    float: left;
+    line-height: 0.85;          
+}      
+         
+.gt:hover .gd {
+  visibility: visible;
+}
+
+}
+.bt {
+  display: inline-block;
+  color: blue;
+  font-family: Copperplate;
+  text-align: justify;
+}
+
+.bt .bd {
+    visibility: hidden;
+    width: 230px;
+    color: blue;
+    background-color: #9BF6FF;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.bd::first-letter {
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+    float: left;
+    line-height: 0.85;          
+}      
+         
+.bt:hover .bd {
+  visibility: visible;
+}
+
+}
+.it {
+  display: inline-block;
+  color: indigo;
+  font-family: Copperplate;
+  text-align: justify;
+}
+
+.it .id {
+    visibility: hidden;
+    width: 230px;
+    color: indigo;
+    background-color: #A0C4FF;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.id::first-letter {
+    font-size: 30px;
+    color: darkviolet;
+    font-weight: bold;
+    float: left;
+    line-height: 0.85;          
+}      
+         
+.it:hover .id {
+  visibility: visible;
+}
+
+
+}
+.vt {
+  display: inline-block;
+  color: mediumpurple;
+  font-family: Lucida Handwriting;
+  text-align: justify;
+}
+
+.vt .vd {
+    visibility: hidden;
+    width: 230px;
+    color: mediumpurple;
+    background-color: #BDB2FF;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.vd::first-letter {
+    font-size: 30px;
+    color:rebeccapurple;
+    font-weight: bold;
+    float: left;
+    line-height: 0.85;          
+}      
+         
+.vt:hover .vd {
+  visibility: visible;
+}
+
+</style>
+</head>
+<body style="text-align:center;">
+</body>
+
